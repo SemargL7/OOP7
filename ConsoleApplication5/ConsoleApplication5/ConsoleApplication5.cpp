@@ -10,8 +10,6 @@ class linked_ring
     } *tail;
 public:
     linked_ring() :tail(nullptr) {}
-    linked_ring(const linked_ring&) = delete;
-    linked_ring& operator=(const linked_ring&) = delete;
 
     void add_tail(T val)
     {
